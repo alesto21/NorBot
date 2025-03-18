@@ -1,0 +1,10 @@
+# Ignore virtual environment
+rasa-env/
+venv/
+
+# Ignore cache, logs, and compiled files
+__pycache__/
+*.log
+
+# Ignore Rasa model files (generated after training)
+models/

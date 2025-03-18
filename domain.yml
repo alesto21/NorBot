@@ -1,0 +1,8 @@
+version: "3.1"
+
+intents:
+  - ask_anything
+  - fallback_intent
+
+actions:
+  - action_deepseek_response

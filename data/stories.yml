@@ -1,0 +1,7 @@
+version: "3.1"
+
+stories:
+  - story: User asks a question
+    steps:
+      - intent: ask_anything
+      - action: action_deepseek_response

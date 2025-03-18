@@ -1,0 +1,24 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_anything
+    examples: |
+      - How do I reset my router?
+      - What is the capital of Japan?
+      - Tell me a joke
+      - How do I contact customer service?
+      - What is 2 + 2?
+      - Can you explain quantum mechanics?
+      - Where is the nearest coffee shop?
+      - Who invented the internet?
+      - What is the best way to improve sleep quality?
+      - How do I bake a chocolate cake?
+      - Can you summarize the theory of relativity?
+      - What is the meaning of life?
+
+  - intent: fallback_intent
+    examples: |
+      - I don’t know what to ask
+      - This is a test
+      - Can you repeat that?
+      - Random text
