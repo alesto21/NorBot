@@ -3,22 +3,38 @@ version: "3.1"
 nlu:
   - intent: ask_anything
     examples: |
-      - How do I reset my router?
-      - What is the capital of Japan?
-      - Tell me a joke
-      - How do I contact customer service?
-      - What is 2 + 2?
-      - Can you explain quantum mechanics?
-      - Where is the nearest coffee shop?
-      - Who invented the internet?
-      - What is the best way to improve sleep quality?
-      - How do I bake a chocolate cake?
-      - Can you summarize the theory of relativity?
-      - What is the meaning of life?
+      - text: "How do I reset my router?"
+      - text: "What is the capital of Japan?"
+      - text: "Tell me a joke"
+      - text: "How do I contact customer service?"
+      - text: "What is 2 + 2?"
+      - text: "Can you explain quantum mechanics?"
+      - text: "Where is the nearest coffee shop?"
+      - text: "Who invented the internet?"
+      - text: "What is the best way to improve sleep quality?"
+      - text: "How do I bake a chocolate cake?"
+      - text: "Can you summarize the theory of relativity?"
+      - text: "What is the meaning of life?"
+      - text: "Hvordan tilbakestiller jeg ruteren min?"
+      - text: "Hva er hovedstaden i Japan?"
+      - text: "Fortell meg en vits"
+      - text: "Hvordan kontakter jeg kundeservice?"
+      - text: "Hva er 2 + 2?"
+      - text: "Kan du forklare kvantemekanikk?"
+      - text: "Hvor er nærmeste kafé?"
+      - text: "Hvem oppfant internett?"
+      - text: "Hvordan kan jeg forbedre søvnkvaliteten?"
+      - text: "Hvordan baker jeg en sjokoladekake?"
+      - text: "Kan du oppsummere relativitetsteorien?"
+      - text: "Hva er meningen med livet?"
 
   - intent: fallback_intent
     examples: |
-      - I don’t know what to ask
-      - This is a test
-      - Can you repeat that?
-      - Random text
+      - text: "I don’t know what to ask"
+      - text: "This is a test"
+      - text: "Can you repeat that?"
+      - text: "Random text"
+      - text: "Jeg vet ikke hva jeg skal spørre om"
+      - text: "Dette er en test"
+      - text: "Kan du gjenta det?"
+      - text: "Tilfeldig tekst"

@@ -1,7 +1,7 @@
 version: "3.1"
 
 rules:
-  - rule: Answer all questions with DeepSeek AI
+  - rule: Answer all questions with OpenAI
     steps:
       - intent: ask_anything
-      - action: action_deepseek_response
+      - action: action_openai_response

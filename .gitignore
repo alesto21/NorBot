@@ -1,3 +1,6 @@
+# Ignore environment files
+.env
+
 # Ignore virtual environment
 rasa-env/
 venv/

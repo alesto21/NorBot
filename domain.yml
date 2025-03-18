@@ -5,4 +5,8 @@ intents:
   - fallback_intent
 
 actions:
-  - action_deepseek_response
+  - action_openai_response # 🔹 Replaced DeepSeek with OpenAI
+
+responses:
+  utter_fallback:
+    - text: "I'm sorry, I can't assist with that."
