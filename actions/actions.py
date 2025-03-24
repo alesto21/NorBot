@@ -25,7 +25,15 @@ class ActionOpenAIResponse(Action):
         data = {
             "model": "gpt-3.5-turbo",
             "messages": [
-                {"role": "system", "content": "You are an AI assistant. Keep responses short and structured."},
+                {
+                    "role": "system",
+                    "content": (
+                        "You are a helpful assistant. "
+                        "Always respond in a short, structured format. "
+                        "Use bullet points or numbered steps when applicable. "
+                        "Avoid long paragraphs. Never exceed 4–5 lines unless asked to elaborate."
+                    )
+                },
                 {"role": "user", "content": user_message}
             ],
             "max_tokens": 100,
